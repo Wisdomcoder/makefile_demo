@@ -1,5 +1,5 @@
 CC =gcc
-OBJ := eat.o main.o test.o 
+OBJ := main.o  
 TOP_DIR :=$(PWD)
 OBJ_DIR :=$(TOP_DIR)/obj
 BIN_DIR :=$(TOP_DIR)/bin

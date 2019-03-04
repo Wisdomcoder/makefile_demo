@@ -1,2 +1,2 @@
 $(BIN_DIR)/$(BIN):$(OBJ)
-	$(CC) $^ -o $@
+	$(CC) -static $^ -L./../lib  -leat -o $@

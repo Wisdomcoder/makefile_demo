@@ -8,6 +8,7 @@ SRC_DIR :=$(TOP_DIR)/src
 BIN :=test
 SUB_DIR := src \
            src/eat \
+           src/drink \
 	   main \
            obj
 
